@@ -1,0 +1,15 @@
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\bin\Debug\net6.0\Vinterprojekt2.exe
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\bin\Debug\net6.0\Vinterprojekt2.deps.json
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\bin\Debug\net6.0\Vinterprojekt2.runtimeconfig.json
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\bin\Debug\net6.0\Vinterprojekt2.dll
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\bin\Debug\net6.0\Vinterprojekt2.pdb
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.csproj.AssemblyReference.cache
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.AssemblyInfoInputs.cache
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.AssemblyInfo.cs
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.csproj.CoreCompileInputs.cache
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.dll
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\refint\Vinterprojekt2.dll
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.pdb
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\Vinterprojekt2.genruntimeconfig.cache
+C:\Users\suren.arakelyan\Documents\Programering\Vinterprojekt2\Vinterprojekt2\obj\Debug\net6.0\ref\Vinterprojekt2.dll
