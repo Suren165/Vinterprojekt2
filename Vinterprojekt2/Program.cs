@@ -1,28 +1,28 @@
 ﻿using System;
 
-Fighter hero = new Fighter();
+Fighter hero = new Fighter(); // Egenskap av min hjälte
 hero.name = "Riddaren";
 hero.weapon = new Weapon();
-hero.weapon.name = "Boxar";
 
-Fighter Villain = new Fighter();
+
+Fighter Villain = new Fighter(); // Egenskaper av min skurk
 Villain.name = "Trollet";
 hero.weapon = new Weapon();
-hero.weapon.name = "Boxar";
 
-Random generator = new Random();
 
-while (hero.Health > 0 && Villain.Health > 0)
+Random generator = new Random(); //Skapar en slump 
+
+while (hero.Health > 0 && Villain.Health > 0)   // En loop där spelet spelas till någon har 0 hp
 {
   Console.WriteLine("\n----- ===== NY RUNDA ===== -----");
   Console.WriteLine($"{hero.name}: {hero.Health}  {Villain.name}: {Villain.Health}\n");
 
-  int heroDamage = generator.Next(30);
+  int heroDamage = generator.Next(1,30);
   Villain.Health -= heroDamage;
   Villain.Health = Math.Max(0, Villain.Health);
   Console.WriteLine($"{hero.name} gör {heroDamage} skada på {Villain.name}");
 
-  int villainDamage = generator.Next(20);
+  int villainDamage = generator.Next(1,30);
   hero.Health -= villainDamage;
   hero.Health = Math.Max(0, hero.Health);
   Console.WriteLine($"{Villain.name} gör {villainDamage} skada på {hero.name}");
@@ -31,8 +31,8 @@ while (hero.Health > 0 && Villain.Health > 0)
   Console.ReadKey();
 }
 
-Console.WriteLine("\n----- ===== STRIDEN ÄR SLUT ===== -----");
-
+Console.WriteLine("\n----- ===== STRIDEN ÄR SLUT ===== -----");   // Visar slut resultat
+ 
 if (hero.Health == 0 && Villain.Health == 0)
 {
   Console.WriteLine("OAVGJORT");
