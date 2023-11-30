@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 Fighter hero = new Fighter(); // Egenskap av min hjälte
 hero.name = "Riddaren";
@@ -17,7 +18,23 @@ while (hero.Health > 0 && Villain.Health > 0)   // En loop där spelet spelas ti
   Console.WriteLine("\n----- ===== NY RUNDA ===== -----");
   Console.WriteLine($"{hero.name}: {hero.Health}  {Villain.name}: {Villain.Health}\n");
 
-  int heroDamage = generator.Next(1,30);
+  Console.WriteLine("Välj vapen (1 = slå) (2 = sparka)");
+  string selection = Console.ReadLine();
+  while (selection != "1" && selection != "2")
+  {
+    Console.WriteLine("Du måste välja 1 eller 2");
+    selection = Console.ReadLine();
+  }
+  int heroDamage = 0;
+  switch (selection)
+  {
+    case "1":
+      heroDamage = generator.Next(1,30);
+      break;
+    case "2":
+      heroDamage = generator.Next(10,20);
+      break;
+  }
   Villain.Health -= heroDamage;
   Villain.Health = Math.Max(0, Villain.Health);
   Console.WriteLine($"{hero.name} gör {heroDamage} skada på {Villain.name}");
@@ -25,7 +42,7 @@ while (hero.Health > 0 && Villain.Health > 0)   // En loop där spelet spelas ti
   int villainDamage = generator.Next(1,30);
   hero.Health -= villainDamage;
   hero.Health = Math.Max(0, hero.Health);
-  Console.WriteLine($"{Villain.name} gör {villainDamage} skada på {hero.name}");
+  Console.WriteLine($"{Villain.name} gör {villainDamage}  skada på {hero.name}");
 
   Console.WriteLine("Tryck på vilken knapp du vill för att fortsätta.");
   Console.ReadKey();
