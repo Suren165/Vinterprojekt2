@@ -22,11 +22,11 @@ while (hero.Health > 0 && Villain.Health > 0)   // En loop där spelet spelas ti
   string selection = Console.ReadLine();
   while (selection != "1" && selection != "2")
   {
-    Console.WriteLine("Du måste välja 1 eller 2");
+    Console.WriteLine("Du måste välja 1 eller 2");   /// Måste välja mellan 1 och 2
     selection = Console.ReadLine();
-  }
+  }          
   int heroDamage = 0;
-  switch (selection)
+switch (selection)   /// Istället för If och else så använder jag switch och case 
   {
     case "1":
       heroDamage = generator.Next(1,30);
